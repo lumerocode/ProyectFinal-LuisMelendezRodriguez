@@ -8,26 +8,26 @@ function NavBar(){
 
         <>
         <div>
-            <header class="header">
-            <section class="header__section">
+            <header className="header">
+            <section className="header__section">
 
                 {/* Header Responsive  */}
-                <div id="toggle-menu" class="toggle-menu">
+                <div id="toggle-menu" className="toggle-menu">
                     {/* <img src="../src/menu_toggle.png" alt="Toggle menu"> */}
                 </div> 
 
                 {/* Header Desktop  */}
-                <div class="header__logo-content">
-                     <a><img class="header__logo" src={Logo} alt="Logo" width="100"/></a> 
+                <div className="header__logo-content">
+                     <a><img className="header__logo" src={Logo} alt="Logo" width="100"/></a> 
                 </div>
 
-                <nav id="main-menu" class="header__nav">
-                    <ul class="header__nav__items">
-                        <li class="header__nav__link header__nav__link--selected"> <a>Home</a> </li>
-                        <li class="header__nav__link"> <a>Portfolio</a> </li>
-                        <li class="header__nav__link"> <a>Services</a> </li>
-                        <li class="header__nav__link "> <a>About</a> </li>
-                        <li class="header__nav__link"> <a>Contact</a> </li> 
+                <nav id="main-menu" className="header__nav">
+                    <ul className="header__nav__items">
+                        <li className="header__nav__link header__nav__link--selected"> <a>Home</a> </li>
+                        <li className="header__nav__link"> <a>Portfolio</a> </li>
+                        <li className="header__nav__link"> <a>Services</a> </li>
+                        <li className="header__nav__link "> <a>About</a> </li>
+                        <li className="header__nav__link"> <a>Contact</a> </li> 
                     </ul>
                 </nav>
                 {/* Utilizo la clase social por que tambien la utilizaré en el footer y en cada  miembro del team */}
